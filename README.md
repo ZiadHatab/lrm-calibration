@@ -85,7 +85,7 @@ cal.coefs['EXR'] # reverse crosstalk (set to zero!)
 cal.coefs['GR']  # reverse switch term
 ```
 
-## Splitting reciprocal rrror-boxes
+## Splitting reciprocal error-boxes
 
 For error-boxes with reciprocal behavior (where S21 = S12), you can split them into left and right error-boxes using:
 
@@ -107,7 +107,7 @@ cal = LRM(line=thru_meas, match=match_meas)
 
 See the example file included. I probably have some measurements somewhere, but I'm too lazy to look for them. So, I did the second best thing, which is using simulated data 😉
 
-![](./Images/example_cal_dut.png)
+![](./images/example_cal_dut.png)
 _DUT S-parameters vs calibrated S-parameters_
 
 ## License
