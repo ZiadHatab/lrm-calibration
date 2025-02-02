@@ -34,7 +34,7 @@ match_meas   = rf.Network('measured_match.s2p')
 reflect_meas = rf.Network('measured_reflect.s2p')
 
 reflect_est = -1  # e.g., short
-gamma_length = 0 # you need to now this for non-zero length (e.g., from TRL or simulation)
+gamma_length = 0 # you need to know this for non-zero length (e.g., from TRL or simulation)
 
 # Measured switch terms
 gamma_f = rf.Network('switch_f.s1p')
