@@ -61,7 +61,7 @@ cal.renorm_impedance(new_impedance, old_impedance)
 cal_dut = cal.apply_cal(dut)
 ```
 
-## Extracting Error Terms
+## Extracting error terms
 
 The `error_coef()` method returns all 12 error terms of the calibration. These terms are automatically updated when you perform impedance renormalization. Below are the available error terms:
 
